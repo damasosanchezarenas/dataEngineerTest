@@ -1,0 +1,35 @@
+
+****** The task is done in the directory "optional6" *******
+
+Hello I am Damaso,
+
+In this .txt I am going to explain the steps I have followed to create the crontab with docker.
+
+1. The first thing I do is create a script.sh (in a very simple way) where I call the.py files created in working_folder.
+
+2. Later I create a crontab that calls this script.sh. This is where I must indicate how often I want it to run.
+
+3. I create a DockerFile where I indicate that I want to execute the crontabasd
+
+
+[HOW USE IT]
+
+1. Build from the Dockerimage:
+
+	$ sudo docker build --rm -t docker-cron .
+
+2. Run the docker container in the background (docker returns the id of the container):
+
+	$ sudo docker run -t -i -d docker-cron
+	b149b5e7306dba492558c7024809f13cfbb616cccd0f4020db61bf715f4db836
+
+3. Check it in /optional6/cron.log
+
+[HOW TO MODIFY THE INTERVAL]
+
+1. To change the interval the cron job is runned, just simply edit the crontab file. 
+Currently, the job is runned every day at 2.30.
+
+
+****** The task is done in the directory "optional6" *******
+

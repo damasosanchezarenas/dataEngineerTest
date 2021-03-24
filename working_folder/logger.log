@@ -1,0 +1,41 @@
+The woeid of London : 44418
+The woeid of Madrid : 766273
+The woeid of Boston : 2367105
+Everything went well :)
+The .csv have been generated in the path: C:\Users\jesus\CW\data-engineer-exercise\working_folder
+
+
+weather_Boston.csv ==> The file has been saved in Mongo Database
+weather_London.csv ==> The file has been saved in Mongo Database
+weather_Madrid.csv ==> The file has been saved in Mongo Database
+
+
+
+****YOU ARE CONNECTED WITH THE API****
+1. Browser ==> http://localhost:8080/api/weather/<City>
+2. Console ==> request.get(http://localhost:8080/api/weather/<City>)
+3. To exit ==> Ctrl+c
+
+
+ * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+The woeid of London : 44418
+The woeid of Madrid : 766273
+The woeid of Boston : 2367105
+Everything went well :)
+The .csv have been generated in the path: C:\Users\jesus\CW\data-engineer-exercise\working_folder
+
+
+weather_Boston.csv ==> The file has been saved in Mongo Database
+weather_London.csv ==> The file has been saved in Mongo Database
+weather_Madrid.csv ==> The file has been saved in Mongo Database
+
+
+
+****YOU ARE CONNECTED WITH THE API****
+1. Browser ==> http://localhost:8080/api/weather/<City>
+2. Console ==> request.get(http://localhost:8080/api/weather/<City>)
+3. To exit ==> Ctrl+c
+
+
+ * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Mar/2021 15:28:53] "[37mGET /api/weather/London HTTP/1.1[0m" 200 -
